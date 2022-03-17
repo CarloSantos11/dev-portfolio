@@ -1101,7 +1101,7 @@ table.alt tbody tr td {
 }
 
 .highlights .content {
-  background: #ffffff;
+  /* background: #ffffff; */
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
 }
 
@@ -2852,17 +2852,8 @@ body.is-preload #banner:before {
 
 /* CTA */
 #cta {
-  background-color: #ce1b28;
-  color: rgba(255, 255, 255, 0.75);
-  background-attachment: fixed;
-  background-image: linear-gradient(
-      rgba(206, 27, 40, 0.25),
-      rgba(206, 27, 40, 0.25)
-    ),
-    url(../../images/cta01.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #000000;
+  color: rgba(0, 0, 0, 0.75);
   position: relative;
   text-align: center;
   z-index: 1;
@@ -3849,4 +3840,33 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible;
+}
+
+.portfolio_1 {
+  /* background: url("../../images/portfolio-1.jpg"); */
+  object-fit: cover;
+}
+
+.content header {
+  border: 1px solid rgb(0, 0, 0);
+  background: url(../../images/portfolio-1.jpg);
+  /* object-fit: cover; */
+  background-size: cover;
+}
+
+.icon {
+  color: transparent;
+}
+
+.content h3 {
+  color: white;
+  font-weight: bold;
+}
+
+section .content {
+  border: 1px solid black;
+}
+
+.content p {
+  margin-top: 3em;
 }
